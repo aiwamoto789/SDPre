@@ -52,7 +52,7 @@ public class PigDice {
                       System.out.println( "\tComputer will roll again." );
                   }
               }
-            } while ( roll != 1 && turnTotal < 20 );
+            } while ( roll != 1 && turnTotal < 20 && ctot >= 100 );
 
             ctot += turnTotal;
             System.out.print( "\tComputer ends the round with " );
